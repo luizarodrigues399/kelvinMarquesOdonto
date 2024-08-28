@@ -1,0 +1,46 @@
+footer{
+    background-image: url("../img/footer.png");
+    background-size: cover;
+    background-position: center;
+    padding: 1em;
+    color:white;
+}
+
+footer .footer-infos{
+    text-align: center;
+}
+
+footer #mapa{
+    height: 200px;
+}
+
+footer #logo{
+    height: 80px;
+    margin-bottom: 1rem;
+}
+
+footer .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10em;
+}
+
+.copyright{
+    background-color: black;
+    text-align: center;
+    color:white;
+    padding: .5rem;
+    font-size: small;
+}
+
+.copyright a{
+    text-decoration: none;
+}
+
+@media (max-width: 992px) {
+    footer .container{
+        flex-direction: column;
+        gap: 2em;
+    }
+}

@@ -1,0 +1,39 @@
+.clinica{
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.clinica h2{
+    padding: 20px 0 40px 0;
+}
+
+.clinica p{
+    line-height: 2rem;
+}
+
+.clinica .clinica-imagens{
+    display: flex;
+    padding: 20px 0;
+    max-width: 1000px;
+    flex-wrap: wrap;
+    margin: 1rem auto;
+    gap:20px;
+}
+
+.clinica img{
+    max-height: 300px;
+    flex-grow: 1;
+}
+
+@media (max-width: 960px) {
+    .clinica img{
+        max-width: 50%;
+    }
+}
+
+@media (max-width: 580px) {
+    .clinica img{
+        max-width: 100%;
+    }
+}
+

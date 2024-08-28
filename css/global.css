@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    height: 100vh;
+    overflow-x: hidden;
+    font-size: 18px;
+    color: black;
+}
+
+html, body, button{
+    font-family: Raleway, Arial;
+}
+
+a { 
+    color: inherit;
+}
+
+:root {
+    --quase-preto: #111;
+}
+
+.container{
+    margin: 0 auto;
+    width: 90%;
+    padding: 1em;
+}
+
+#whatsapp{
+    position: absolute;
+    bottom: 1rem;
+    right: 1.5rem;
+}

@@ -1,0 +1,16 @@
+.horarios{
+    text-align: center;
+    padding: 3rem;
+    line-height: 2rem;
+}
+
+.horarios h1{
+    margin: 1rem 0;
+}
+
+@media (max-width: 992px) {
+    .horarios{
+        padding: 4em;
+    }
+}
+

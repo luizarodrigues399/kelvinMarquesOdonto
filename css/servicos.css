@@ -1,0 +1,30 @@
+.servicos{
+  background-image: url("../img/nossos-servicos.png");
+  background-size: cover;
+  padding: 3em 0;
+  color: white;
+}
+
+.servicos h1{
+  padding: 1em 0;
+  text-align: center;
+}
+
+.servicos .servicos-texto{
+  width: 60%;
+  padding: 1rem;
+  background-color: rgba(0, 0, 0, 0.71);
+  margin: auto;
+  border-radius: 5px;
+}
+
+.servicos ul, .servicos p {
+  padding: 1rem;
+  line-height: 2rem;
+}
+
+@media (max-width: 600px) {
+  .servicos .servicos-texto{
+    width: 80%;
+  }
+}

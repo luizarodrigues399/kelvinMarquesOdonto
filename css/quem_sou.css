@@ -1,0 +1,35 @@
+.quem-sou{
+    background-color: black;
+    color: white;
+    padding: 2rem 0;
+}
+
+.quem-sou .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10rem;
+}
+
+.quem-sou .quem-sou-imagem{
+    text-align: center;
+}
+
+.quem-sou h3{
+    padding: 20px 0 40px 0;
+}
+
+.quem-sou .quem-sou-texto{
+    line-height: 2rem;
+}
+
+@media (max-width: 768px) {
+    .quem-sou .container{
+        flex-direction: column;
+        gap: 1rem;
+    }
+    
+    .quem-sou .quem-sou-texto{
+        margin: 0 15px;
+    }
+}
