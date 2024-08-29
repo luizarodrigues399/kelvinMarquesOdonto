@@ -11,7 +11,7 @@ footer .footer-infos{
 }
 
 footer #mapa{
-    height: 200px;
+    max-height: 200px;
 }
 
 footer #logo{
@@ -44,3 +44,11 @@ footer .container{
         gap: 2em;
     }
 }
+
+
+@media (max-width: 500px) {
+    footer #mapa{
+        max-height: 150px;
+    }
+}
+

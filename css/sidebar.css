@@ -41,3 +41,9 @@
     font-size: 20px;
 }
 
+.sidebar > .close{
+    position: absolute;
+    top: 10px;
+    right: 30px;
+}
+

@@ -1,11 +1,11 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 html, body{
     height: 100vh;
-    overflow-x: hidden;
     font-size: 18px;
     color: black;
 }
@@ -29,7 +29,7 @@ a {
 }
 
 #whatsapp{
-    position: absolute;
+    position: fixed;
     bottom: 1rem;
     right: 1.5rem;
 }

@@ -13,11 +13,13 @@ function irParaElementoEFechar(nomeClasse){
 function toggleSidebar() {
 
     document.querySelector('.sidebar').classList.toggle("abrir-sidebar");
+
+    document.querySelector('.sidebar-botao button').classList.toggle("change-color");
 }
 
 function direcionarWhatsapp(){
 
-    window.open("https://api.whatsapp.com/send/?phone=553188662466&text=Quero+saber+mais+sobre+suas+consultas+odontologicas&type=phone_number&app_absent=0", "_blank");
+    window.open("https://api.whatsapp.com/send/?phone=5531989505605&text=Quero+saber+mais+sobre+suas+consultas+odontologicas&type=phone_number&app_absent=0", "_blank");
 }
 
 function direcionarMaps(){
