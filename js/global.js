@@ -19,7 +19,7 @@ function toggleSidebar() {
 
 function direcionarWhatsapp(){
 
-    window.open("https://api.whatsapp.com/send/?phone=5531989505605&text=Quero+saber+mais+informações+sobre+o+tratamento+ortodôntico&type=phone_number&app_absent=0", "_blank");
+    window.open("https://api.whatsapp.com/send/?phone=5531989505605&text=Quero+saber+mais+informações+sobre+o+tratamento+com+aparelhos+dentários&type=phone_number&app_absent=0", "_blank");
 }
 
 function direcionarMaps(){
